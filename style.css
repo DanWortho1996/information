@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+/* font-family: 'Bona Nova', serif; */
+
+
+/* *{ */
+    /* background-color: darkgrey; */
+    /* box-sizing: border-box; */
+    /* padding: 25px 50px 75px 100px; */
+    /* background-image: url("gaming1.jpg"); */
+    /* background-size: 100%; */
+/* } */
+/* This is how to target all your HTML code. This shows how to change the background color */
+
+/* box sizing border box reset the order to the whole HTML as most borders have their won settings */
+
+/* Padding: one value (number) represents padding on all sides, two represents top and bottom, threevalues represent top righty, top left then bottom. Four values represent top, right, bottom and left. */
+
+/* body {
+    margin: 0xpx;
+} */
+
+h1{
+    color: black;
+    font-size: 75px;
+    font-style: italic;
+}
+/* This is how to target an element in HTML and chnge he color and font size of it*/
+
+/* .Welcome{
+    background-color: greenyellow;
+}
+
+.large{
+    font-size: 50px;
+}
+
+.blue{
+    background-color: orange;
+}
+
+#whitetext {
+    color: white;
+} */
+
+/* This is how to target an ID */
+
+#image1{
+    width: 100%;
+}
+
+p{
+    font-family: 'Bona Nova', serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+}
+/* This is how to change font style, size, height and weight within HTML  */
+
+.size {
+    width: 70%;
+}
+/* This will change all images in all pages of image sizes to the percentage you put it as. */
+
+/* <div id="navbar"> */
+
+body{
+    margin: 0;
+    background-image: 100%;
+}
+
+
+#navbar {
+    background-color: grey;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar a {
+    color:white;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color: gold;
+}
+
+.size1 {
+    width: 100%;
+}
+
